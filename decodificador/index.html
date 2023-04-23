@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Decodificador</title>
+    <link rel="icon" type="image/x-icon" href="img/logo.svg">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Montserrat:wght@100;300&display=swap"
+        rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.svg">
+            <h1>Decodificador</h1>
+        </div>
+    </header>
+    <main>
+        <section class="principal">
+
+            <textarea cols="70" rows="10" class="input-padrao" placeholder="Digite o texto" id="textarea-entrada"></textarea>
+
+            <div class="botoes">
+                <p>Apenas letras minúsculas e sem acento.</p>
+                <button id="button-criptografar" class="button-criptografar">
+                    Criptografar
+                </button>
+                <button id="button-descriptografar" class="button-descriptografar">
+                    Descriptografar</button>
+            </div>
+
+        </section>
+        <section class="exibir-resultado">
+            <div id="sem-resultado" class="exibir-conteudo">
+                <div class="conteudo-sem-resultado">
+                    <h2>Nenhuma mensagem encontrada</h2>
+                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+            </div>
+
+            <div id="com-resultado" class="nao-exibir-conteudo">
+                <div class="conteudo-com-resultado" id="conteudo-com-resultado">
+               
+                </div>
+                <button id="button-copiar" class="button-copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Com muito &#128150; por Weverson Celio <br>
+            <a href="https://www.linkedin.com/in/weversoncelio/">LinkedIn</a> e <a
+                href="https://github.com/WeversonCelio">github</a>
+        </p>
+
+    </footer>
+
+
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

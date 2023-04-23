@@ -1,0 +1,266 @@
+/* HEARDER */
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #E5E5E5;
+}
+
+main {
+    background: #E5E5E5;
+    height: auto;
+
+}
+
+.logo {
+    margin: 1em;
+    padding: 1em 3em;
+    display: inline-block;
+}
+
+.logo img {
+    display: inline-block;
+}
+
+.logo h1 {
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+/* MAIN */
+/* principal */
+.principal {
+    display: inline-block;
+    width: 55%;
+    margin: 0 3em;
+}
+
+.principal .input-padrao {
+    background-color: #E5E5E5;
+    border: none;
+    color: #0A3871;
+    font-size: 2em;
+    display: block;
+    width: 80%;
+}
+
+.input-padrao {
+    background-color: #E5E5E5;
+    border: none;
+    color: #0A3871;
+    font-size: 2em;
+    display: block;
+}
+
+.principal .botoes {
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+}
+
+.principal p {
+    text-align: center;
+    padding: 1em;
+}
+
+.principal p:before {
+    content: "🛈 ";
+}
+
+.button-criptografar {
+    margin: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: #fefefe;
+    font-size: 16px;
+    border: none;
+    display: inline-block;
+    transition: 1s;
+}
+
+.button-criptografar:hover {
+    background: #052144;
+    transform: scale(1.05);
+}
+
+
+
+.button-descriptografar {
+    margin: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+
+    background: #D8DFE8;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: #0A3871;
+    font-size: 16px;
+
+    border: #0A3871 solid 1px;
+    display: inline-block;
+    transition: 1s;
+}
+
+.button-descriptografar:hover {
+    background: #94a7bf;
+    transform: scale(1.05);
+}
+
+/* MAIN */
+/* resultado */
+.exibir-resultado {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+.exibir-conteudo {
+    display: block;
+}
+
+.nao-exibir-conteudo {
+    display: none;
+}
+
+.conteudo-sem-resultado {
+    height: 300px;
+    margin: 3em;
+    padding: 10px 10px 25px;
+    background-color: #fefefe;
+    text-align: center;
+    border-radius: 10px;
+
+    background-image: url(../img/boneco.svg);
+    background-repeat: no-repeat;
+}
+
+
+
+.conteudo-sem-resultado h2 {
+    padding: 1em;
+    font-weight: bold;
+    text-shadow: 10px 1px 5px #fefefe;
+}
+
+.conteudo-sem-resultado p {
+    padding: 1em;
+    text-shadow: 10px 1px 5px #fefefe;
+}
+
+.texto-resultado {
+    margin: 1em;
+    padding: 1em;
+    background-color: #E5E5E5;
+    border: none;
+    color: #0A3871;
+    font-size: 2em;
+    display: block;
+    width: 80%;
+
+    background-color: #fefefe;
+    text-align: center;
+    border-radius: 10px;
+    display: block;
+}
+
+.button-copiar {
+    margin: 0 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+    background: #f9f9f9;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    color: #0A3871;
+    font-size: 16px;
+    border: #0A3871 solid 1px;
+    display: inline-block;
+    transition: 1s;
+}
+
+.button-copiar:hover {
+    background: #e1e0e0;
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #052144;
+    text-align: center;
+    padding: 2em;
+}
+
+footer p,
+footer p a {
+    color: #fefefe;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 960px) {
+    .principal,
+    .botoes {
+        width: auto;
+    }
+
+    .button-descriptografar,
+    .button-criptografar,
+    .button-copiar {
+        padding: 1em;
+        margin: 1em;
+        width: 70%;
+
+    }
+
+    .input-padrao {
+        width: auto;
+    }
+
+    .exibir-resultado {
+
+        display: inline-block;
+        width: auto;
+        text-align: center;
+    }
+
+    .com-resultado {
+        width: auto;
+        height: auto;
+        margin: 1em;
+    }
+    .texto-resultado{
+        margin: auto;
+        padding: auto;
+    }
+}
