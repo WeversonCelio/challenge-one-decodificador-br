@@ -37,3 +37,5 @@ Durante estas duas semanas, vamos trabalhar em uma aplicação que criptografa t
 * Alterado as classes dos elementos através da classList, para permitir ocultar elementos dinamicamente. 
 
 ![](about/2.png)
+
+![image](https://user-images.githubusercontent.com/40498445/233819664-182c9231-c9b4-4ca4-9104-5c5bd4e4e0c9.png)
